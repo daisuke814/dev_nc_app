@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>sakamotoapp</id>
+    <name>Sakamoto App</name>
+    <summary>これはテストアプリです。</summary>
+    <description><![CDATA[ここに説明が入力されます。
+さかもとたいしょうです。]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="daisuke814@outlook.com" homepage="https://daisuke814.xsrv.jp">Daisuke Sakamoto</author>
+    <namespace>SakamotoApp</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/daisuke814/dev_nc_app</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Sakamoto App</name>
+            <route>sakamotoapp.page.index</route>
+        </navigation>
+    </navigations>
+</info>

@@ -1,0 +1,15 @@
+{
+    "name": "Sakamoto App",
+    "description": "これはテストアプリです。",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Daisuke Sakamoto"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
